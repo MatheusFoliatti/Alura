@@ -151,8 +151,8 @@ Uso educacional e corporativo interno.
 <br>
 
 <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" width="140"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Google_Sheets_logo_%282014-2020%29.svg/512px-Google_Sheets_logo_%282014-2020%29.svg.png" width="120"/>
-<img src="https://ai.google.dev/static/site-assets/images/hero.png" width="180"/>
+<img src="https://cdn-icons-png.flaticon.com/512/2965/2965278.png" width="120"/>
+<img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_logo.max-1300x1300.png" width="150"/>
 
 <br><br>
 
