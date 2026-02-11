@@ -305,7 +305,4 @@ O usuário obtém:
 
 <h2>🔥 Projeto de Integração API + IA + Automação</h2>
 
-<strong>Perfeito para portfólio de Backend, Automação e IA
-Aplicada</strong>
-
 </div>
