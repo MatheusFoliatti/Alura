@@ -142,204 +142,106 @@ Um agente corporativo completo com:
 
 Uso educacional e corporativo interno.
 
-::: {align="center"}
-```{=html}
-<h1 style="font-size:42px;">
-```
-⚡ Projeto Pokédex Inteligente
-```{=html}
-</h1>
-```
-```{=html}
-<h3>
-```
-Python • API REST • Frontend Web • Consumo de API Pokémon
-```{=html}
-</h3>
-```
-`<img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />`{=html}
-`<img src="https://img.shields.io/badge/API-REST-green?style=for-the-badge" />`{=html}
-`<img src="https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-orange?style=for-the-badge" />`{=html}
-`<img src="https://img.shields.io/badge/Data-PokéAPI-red?style=for-the-badge" />`{=html}
+<div align="center">
 
-`<br>`{=html}`<br>`{=html}
+<h1>⚡ Projeto Pokédex Inteligente</h1>
+<h3>Python • API REST • Frontend Web • Consumo de API Pokémon</h3>
 
-`<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" width="150"/>`{=html}
-`<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" width="150"/>`{=html}
-`<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" width="150"/>`{=html}
-:::
+<img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />
+<img src="https://img.shields.io/badge/API-REST-green?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Data-PokéAPI-red?style=for-the-badge" />
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" width="120"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" width="120"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" width="120"/>
+
+</div>
 
 ------------------------------------------------------------------------
 
-```{=html}
-<h2 style="font-size:32px;">
-```
-📌 Visão Geral
-```{=html}
-</h2>
-```
-Este projeto implementa uma `<strong>`{=html}Pokédex
-interativa`</strong>`{=html} que consome dados da
-`<strong>`{=html}PokéAPI`</strong>`{=html} e exibe informações
-detalhadas sobre os Pokémon.
+<h2>📌 Visão Geral</h2>
 
-Funcionalidades principais:
+Este projeto implementa uma <strong>Pokédex interativa</strong> que
+consome dados da <strong>PokéAPI</strong> e exibe informações detalhadas
+sobre os Pokémon.
 
-```{=html}
-<ul>
-```
-```{=html}
-<li>
-```
-🔎 Busca por nome ou ID
-```{=html}
-</li>
-```
-```{=html}
-<li>
-```
-📊 Exibição de tipos, habilidades e status
-```{=html}
-</li>
-```
-```{=html}
-<li>
-```
-🖼 Renderização de sprites oficiais
-```{=html}
-</li>
-```
-```{=html}
-<li>
-```
-⚡ Interface dinâmica e responsiva
-```{=html}
-</li>
-```
-```{=html}
-</ul>
-```
+### Funcionalidades
+
+-   🔎 Busca por nome ou ID
+-   📊 Exibição de tipos, habilidades e status
+-   🖼 Renderização de sprites oficiais
+-   ⚡ Interface dinâmica e responsiva
 
 ------------------------------------------------------------------------
 
-```{=html}
-<h2 style="font-size:32px;">
-```
-🏗 Arquitetura
-```{=html}
-</h2>
-```
-`<img src="https://miro.medium.com/v2/resize:fit:1400/1*api_architecture_example.png" width="650"/>`{=html}
+<h2>🏗 Arquitetura</h2>
 
-```{=html}
-<h3 style="font-size:24px;">
-```
-Backend
-```{=html}
-</h3>
-```
--   Consumo da PokéAPI\
--   Tratamento de dados\
+<img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" width="200"/>
+
+### Backend
+
+-   Consumo da PokéAPI
+-   Tratamento de dados
 -   Padronização de resposta
 
-```{=html}
-<h3 style="font-size:24px;">
-```
-Frontend
-```{=html}
-</h3>
-```
--   Interface HTML/CSS\
--   Requisições assíncronas (fetch/axios)\
+### Frontend
+
+-   Interface HTML/CSS
+-   Requisições assíncronas (fetch/axios)
 -   Renderização dinâmica via JavaScript
 
 ------------------------------------------------------------------------
 
-```{=html}
-<h2 style="font-size:32px;">
-```
-🚀 Como Executar
-```{=html}
-</h2>
-```
-```{=html}
-<h3>
-```
-1️⃣ Clonar repositório
-```{=html}
-</h3>
-```
-```{=html}
-<pre>
+<h2>🚀 Como Executar</h2>
+
+### 1️⃣ Clonar repositório
+
+``` bash
 git clone https://github.com/seuusuario/pokedex.git
 cd pokedex
-</pre>
 ```
-```{=html}
-<h3>
-```
-2️⃣ Instalar dependências (caso tenha backend)
-```{=html}
-</h3>
-```
-```{=html}
-<pre>
+
+### 2️⃣ Instalar dependências (se houver backend)
+
+``` bash
 pip install -r requirements.txt
-</pre>
 ```
-```{=html}
-<h3>
-```
-3️⃣ Executar
-```{=html}
-</h3>
-```
+
+### 3️⃣ Executar
+
 Se for apenas frontend:
 
-```{=html}
-<pre>
+``` bash
 Abra o index.html no navegador
-</pre>
 ```
+
 Se houver backend:
 
-```{=html}
-<pre>
+``` bash
 uvicorn main:app --reload
-</pre>
 ```
 
 ------------------------------------------------------------------------
 
-```{=html}
-<h2 style="font-size:32px;">
-```
-📂 Estrutura do Projeto
-```{=html}
-</h2>
-```
-```{=html}
-<pre>
+<h2>📂 Estrutura do Projeto</h2>
+
+``` bash
 /pokedex
  ├── index.html
  ├── style.css
  ├── script.js
  ├── /assets
  └── README.md
-</pre>
 ```
 
 ------------------------------------------------------------------------
 
-```{=html}
-<h2 style="font-size:32px;">
-```
-🎯 Exemplo de Retorno da API
-```{=html}
-</h2>
-```
-```{=html}
-<pre>
+<h2>🎯 Exemplo de Retorno da API</h2>
+
+``` json
 {
   "name": "pikachu",
   "types": ["electric"],
@@ -350,36 +252,23 @@ uvicorn main:app --reload
     "speed": 90
   }
 }
-</pre>
 ```
 
 ------------------------------------------------------------------------
 
-```{=html}
-<h2 style="font-size:32px;">
-```
-🔮 Melhorias Futuras
-```{=html}
-</h2>
-```
--   🔍 Filtro por tipo\
--   📱 Layout mobile aprimorado\
--   🌙 Dark mode\
--   ⭐ Sistema de favoritos\
+<h2>🔮 Melhorias Futuras</h2>
+
+-   🔍 Filtro por tipo
+-   📱 Layout mobile aprimorado
+-   🌙 Dark mode
+-   ⭐ Sistema de favoritos
 -   🧠 Integração com IA para descrição automática
 
 ------------------------------------------------------------------------
 
-::: {align="center"}
-```{=html}
-<h2 style="font-size:34px;">
-```
-🏁 Projeto Ideal para Portfólio
-```{=html}
-</h2>
-```
-`<strong>`{=html}Consumo de API + Interface Dinâmica + Organização
-Modular`</strong>`{=html}
+<div align="center">
 
-`<br>`{=html}`<br>`{=html}
-:::
+<h2>🏁 Projeto Ideal para Portfólio</h2>
+<strong>Consumo de API + Interface Dinâmica + Organização Modular</strong>
+
+</div>
