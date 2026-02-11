@@ -151,7 +151,7 @@ Uso educacional e corporativo interno.
 <br>
 
 <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" width="140"/>
-<img src="https://cdn-icons-png.flaticon.com/512/2965/2965278.png" width="120"/>
+<img src="https://cdn-icons-png.flaticon.com/512/2965/2965278.png" width="80"/>
 <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_logo.max-1300x1300.png" width="150"/>
 
 <br><br>
